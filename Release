@@ -1,0 +1,12 @@
+Origin: Qn_
+Label: Qn_
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Just my private repo
+
+SHA256:
+ eb696e3884bf7b29916ca0d9a66887e291b2616a8b9d13db85c2faaeefb2165d 2555 Packages.bz2
+ 4dd52219254448e741537713aa57b18829c2974ea72f50498c87409580ebe8c4 2404 Packages.xz
