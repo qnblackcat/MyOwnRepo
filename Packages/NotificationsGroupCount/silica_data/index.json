@@ -1,0 +1,49 @@
+{
+    "bundle_id": "com.0xkuj.notificationsgroupcount",
+    "architecture": "iphoneos-arm64e",
+    "name": "NotificationsGroupCount (Roothide)",
+    "version": "1.0.7",
+    "tagline": "Count your grouped notifications on your lockscreen!",
+    "homepage": "https://github.com/0xkuj",
+    "developer": {
+        "name": "0xkuj",
+        "email": ""
+    },
+    "maintainer": {
+        "name": "0xkuj",
+        "email": ""
+    },
+    "social": [
+        {
+            "name": "Twitter",
+            "url": "https://x.com/0xkuj?"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/0xkuj"
+        }
+    ],
+    "sponsor": {
+        "name": "",
+        "email": ""
+    },
+    "section": "Tweaks",
+    "pre_dependencies": "",
+    "dependencies": "mobilesubstrate, firmware (>= 13.0)",
+    "conflicts": "",
+    "replaces": "",
+    "provides": "",
+    "other_control": ["Tag: role::enduser", "SomeOtherEntryToControl: True"],
+
+    "tint": "#55c6d3",
+    "works_min": "15.0",
+    "works_max": "17.0",
+    "featured": "false",
+    "source": "https://github.com/0xkuj/NotificationsGroupCount",
+    "changelog": [
+        {
+            "version": "1.0.7",
+            "changes": "See https://github.com/0xkuj/NotificationsGroupCount/releases"
+        }
+    ]
+}
