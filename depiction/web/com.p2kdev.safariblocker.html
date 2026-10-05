@@ -46,7 +46,7 @@
                 </div>
                 <div class="cell">
                     <div class="title">Version</div>
-                    <div class="text">1.3.1</div>
+                    <div class="text">1.3.3</div>
                     <br><br>
                 </div>
                 <div class="cell">
@@ -62,7 +62,51 @@
             </div>
         </div>
         <div class="changelog">
-            This package has no changelog.
+            <div class="changelog_entry">
+                <h4>1.3.3</h4>
+                <div class="md_view"><ul>
+<li>Safari no longer crashes if Apple renames one of its internal properties; SafariBlocker just skips that step.</li>
+<li>Malformed allowed/blocked lists in preferences are ignored instead of crashing.</li>
+<li>Rootless dependency removed: native roothide build, no rootless-compat needed.</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.3.2</h4>
+                <div class="md_view"><ul>
+<li>Fixed domain and URL matching: only the leading <code>https://</code>, <code>http://</code>, <code>//</code> and <code>www.</code> are stripped now, so blocked/allowed lists match correctly.</li>
+<li>Fixed a crash when reading the parent tab on iOS versions where Safari no longer has that field.</li>
+<li>Only one SafariBlocker alert is shown at a time; extra pop-ups that arrive while it is open are blocked (with a toast if enabled).</li>
+<li>The alert is presented from the topmost screen, so it shows even when something else is already open.</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.3.1</h4>
+                <div class="md_view"><ul>
+<li>iOS 15+ support for rootless and roothide jailbreaks.</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.2</h4>
+                <div class="md_view"><ul>
+<li>Fixed SafariBlocker blocking the &quot;Open in New Tab&quot; action.</li>
+<li>iPad improvements.</li>
+<li>Thanks to opa334 for the above changes.</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.1.1</h4>
+                <div class="md_view"><ul>
+<li>Added option to disable the blocked message.</li>
+<li>Exception handling for some crashes users were experiencing.</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
+                <h4>1.1</h4>
+                <div class="md_view"><ul>
+<li>Initial release by P2KDev: control pop-ups and new tabs opening automatically in Safari.</li>
+</ul>
+</div>
+            </div>
         </div>
         <div class="caption center footer">Silica 1.2.2 – Updated 2026-10-05</div>
     </div>
