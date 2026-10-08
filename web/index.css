@@ -97,17 +97,8 @@ h1, h2, h3, h4, h5, h6, p {
     float: right;
 }
 
-.add_repo {
-    margin-top: 48px;
-}
-
-.add_repo > a {
-    margin-left: 14px;
-}
-
 .add_sileo {
-    font-size: 1.1em;
-    font-weight: 600;
+    font-size: 2em;
     cursor: pointer;
     text-decoration: none;
 }
